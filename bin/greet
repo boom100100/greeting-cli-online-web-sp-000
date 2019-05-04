@@ -5,5 +5,5 @@ require_relative "../lib/greeting.rb"
 
 puts #greet user
 puts #ask for input
-name = gets.strip
+name = gets
 puts(greeting(name))

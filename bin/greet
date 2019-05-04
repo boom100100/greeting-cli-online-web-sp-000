@@ -4,6 +4,6 @@ require_relative "../lib/greeting.rb"
 # code your CLI here!
 
 puts #greet user
-puts #ask for input
+puts "Hi! I'm HAL, what'syour name?"#ask for input
 name = gets
 puts(greeting(name))
